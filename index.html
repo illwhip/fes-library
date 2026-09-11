@@ -27,9 +27,9 @@
               <i class="fas fa-times"></i>
             </button>
             <ul class="menu__links">
-             <li class="menu__list"><a class="menu__link" href="#">Home</a></li>
-              <li class="menu__list"><a class="menu__link" href="#features">Books</a></li>
-              <li class="menu__list"><a class="menu__link no-cursor" href="#">Contact</a></li>
+             <li class="menu__list"><a class="menu__link" onclick="closeMenu()" href="#">Home</a></li>
+              <li class="menu__list"><a class="menu__link" onclick="closeMenu()" href="#features">Books</a></li>
+              <li class="menu__list"><a class="menu__link no-cursor" onclick="closeMenu()" href="#">Contact</a></li>
             </ul>
         
       </div>
@@ -39,7 +39,9 @@
       <div class="header__description">
         <h1>Australia's most awarded library platform</h1>
         <h2>Find your dream book with <span class="text--color">Library</span></h2>
-        <button class="btn">Browse Books</button>
+        <a href="#features">
+          <button class="btn">Browse Books</button>
+        </a>
       </div>
       <figure class="header__img--wrapper">
         <img src="./assets/Undraw_Books.svg" alt="">
@@ -324,7 +326,9 @@
       <div class="container">
         <div class="row row__column">
           <h2>Explore more <span class="text--color">Books</span></h2>
-          <button class="btn">Browse Books</button>
+          <a href="#features">
+            <button class="btn">Browse Books</button>
+          </a>
         </div>
       </div>
     </section>
